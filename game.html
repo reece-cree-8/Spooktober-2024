@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trick or Treat Jokes Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <nav>
+      Spooktober 2024!
+    
+      <section class="navBarItems">
+        <ul>
+          <li id="overview"><a href="index.html"> Overview</a></li>
+          <li id="game" class="active"><a href="#currentJoke"> Game </a></li>
+          <li id="author"><a href="author.html"> Author </a></li>
+        </ul>
+      </section>
+      <hr>
+    </nav>
+
+    <div>
+      <div id="trick-or-treater">
+        <p id="result"></p>
+        <img id="currentJoke" src="joke.png">
+      </div>
+      <div> 
+        <input type="text" id="answer-input" placeholder="Enter punchline..." />
+        <button onclick="checkAnswer()" id="submit">Submit</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

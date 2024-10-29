@@ -1,0 +1,142 @@
+body {
+  background-color: black;
+  color: orange;
+  font-family: 'Spooky', sans-serif;
+  text-align: center;
+}
+
+input, button {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+p{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+button {
+  background-color: orange;
+  color: black;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkorange;
+}
+
+img{
+  height: 100vh;
+  width: auto;
+}
+
+nav{
+  margin: 0px;
+  border: 0px;
+  color: orange;
+  background-color: black;
+  font-size: xx-large;
+  text-decoration:underline;
+  
+}
+
+ul{
+  padding: 20px;
+  margin:0px;
+}
+
+li{
+  display: inline-block;
+}
+
+a:link{
+  color:orange;
+  text-decoration: none;
+}
+a:visited{
+  color: orange;
+  text-decoration: none;
+}
+
+#game{
+  align-self: center;
+  margin-left:auto;
+  margin-right:auto;
+  padding-right: 3%;
+
+}
+
+#overview{
+  float: left;
+  margin-left: 10%;
+}
+
+.active{
+  background-color: darkorange;
+  color: black;
+}
+
+#author{
+  float: right;
+  margin-right: 10%;
+}
+
+
+.rules{
+  padding:0px;
+  margin: 5px;
+  list-style-type: disc;
+}
+
+#answer-input{
+  position: absolute;
+  top: 110%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  background-color: #000000; 
+  color: #fff; 
+  padding: 10px 20px; 
+  font-size: 20px; 
+  text-align: center;
+}
+
+#submit{
+  position: absolute;
+  top: 110%; 
+  left: 75%; 
+  transform: translate(-50%, -50%); 
+  background-color: #000000; 
+  color: #fff; 
+  padding: 10px 20px; 
+  font-size: 20px; 
+  text-align: center;
+}
+
+#result{
+  position: absolute;
+  top: 35%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  background-color: #000000; 
+  color: #fff; 
+  margin: 0px; 
+  font-size: 20px; 
+  text-align: center;
+}
+
+#github{
+  width: 8%;
+  height: auto;
+  float: left;
+  margin-left: 20%;
+  padding-left: 18%;
+  margin-right: 2%;
+}
+
+#githubName{
+  text-align: left;
+  padding-top:3%;
+}
